@@ -1,0 +1,12 @@
+<services>
+    <service name="obs_scm">
+        <param name="scm">git</param>
+        <param name="url">git://github.com/hannes-hochreiner/spelling-meta.git</param>
+        <param name="versionformat">@PARENT_TAG@</param>
+        <param name="versionrewrite-pattern">v(.*)</param>
+        <param name="match-tag">v*</param>
+        <param name="revision">@PARENT_TAG@</param>
+        <param name="extract">spelling_meta.spec</param>
+        <param name="extract">_service</param>
+    </service>
+</services>
