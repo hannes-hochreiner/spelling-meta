@@ -5,8 +5,7 @@
         <param name="versionformat">@PARENT_TAG@</param>
         <param name="versionrewrite-pattern">v(.*)</param>
         <param name="match-tag">v*</param>
-        <param name="revision">@PARENT_TAG@</param>
-        <param name="extract">spelling_meta.spec</param>
-        <param name="extract">_service</param>
+        <param name="revision">main</param>
+        <param name="extract">spelling-meta.spec</param>
     </service>
 </services>
